@@ -1,0 +1,21 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+.all-items{
+  list-style: none;
+  background: rgb(124, 232, 247);
+  width: 200px;
+  padding:20px;
+}
+.selected-items{
+  list-style: none;
+  background: rgb(246, 130, 227);
+  width: 200px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  text-align: center;
+}
